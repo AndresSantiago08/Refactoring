@@ -4,7 +4,7 @@
   "description": "Modularizando un script legado para crear una API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/AndresSantiago08/Refactoring/issues"
   },
-  "homepage": "https://github.com/AndresSantiago08/Refactoring#readme"
+  "homepage": "https://github.com/AndresSantiago08/Refactoring#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
 }
