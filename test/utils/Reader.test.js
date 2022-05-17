@@ -5,5 +5,5 @@ describe("Test de clase Reader", () => {
         
         const ExplorersRead = Reader.readJsonFile("./test/utils/prueba.json");
         expect(ExplorersRead.length).toBe(5);
-    })
-})
+    });
+});
